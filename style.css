@@ -1,0 +1,24 @@
+/* Enable smooth scrolling across sections */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Offset top spacing for fixed navbar */
+section {
+  scroll-margin-top: 70px;
+}
+
+/* Header gradient background */
+header {
+  background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+}
+
+/* Project card hover effect */
+.card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
